@@ -1,21 +1,21 @@
 {
 	"ProtocolConfiguration": {
-		"Magic": 56753,
+		"Magic": 630401,
 		"AddressVersion": 23,
 		"StandbyValidators": [
-			"02b3622bf4017bdfe317c58aed5f4c753f206b7db896046fa7d774bbc4bf7f8dc2",
-			"02103a7f7dd016558597f7960d27c516a4394fd968b9e65155eb4b013e4040406e",
-			"03d90c07df63e690ce77912e10ab51acc944b66860237b608c4f8f8309e71ee699",
-			"02a7bc55fe8684e0119768d104ba30795bdcc86619e864add26156723ed185cd62"
+			"02497913cf757a50284181704056961e0ec3e2bf6a5f551982855efdc255e27da8",
+			"0253a40027c421f10027c987c090a07af8a7306e20a70ce641144e4365f7e2fc3e",
+			"0333bc69e0acab2b2d16d59a78d47a2a7ca159be36ef64689f6ab1cee278ea09f3",
+			"0265aaa5f466389f2e1c5a09cbd5140f81fe07c344d4fcb8fada65113de7a7eef8"
 		],
 		"SeedList": [
-			"neo-nodes:20333",
-			"neo-nodes:20334",
-			"neo-nodes:20335",
-			"neo-nodes:20336"
+			"47.88.51.107:50333",
+			"47.90.189.186:51333",
+			"47.90.28.83:53333",
+			"47.91.223.141:52333"
 		],
 		"RPCList": [
-			"http://neo-nodes:30333"
+			"http://47.98.227.225:50332"
 		],
 		"SystemFee": {
 			"EnrollmentTransaction": 1000,
