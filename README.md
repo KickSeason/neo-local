@@ -47,3 +47,9 @@ Please visit the [wiki](https://github.com/CityOfZion/neo-local/wiki) for
 instructions on how to install and use the project.
 
 ![image](https://user-images.githubusercontent.com/2796074/36632958-9247f8ba-198d-11e8-8055-f096141902d9.png)
+
+## change log
+I forked from cityofzion/neo-local,  and I just only want to set up neo-csan using my own private block chain， so I changed the **docker-compose.yml** and  **notifications-server.config.json**, if you want to use it with your own private chain, change this:
+1. change all  **NEO_SEEDS**  in  *docker-compose.yml* .
+2. edit  **notifications-server.config.json** change the validators and seedlist and rpclist.
+3. follow the installation and useage steps in  [wiki](https://github.com/CityOfZion/neo-local/wiki)
