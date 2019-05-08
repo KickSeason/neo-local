@@ -194,7 +194,7 @@ services:
       DB_USERNAME: postgres
       NEO_NOTIFICATIONS_SERVER: 'http://${NOTIFICATIONS_SERVER}:8080/v1'
       NEO_SEEDS: >-
-        http://47.254.184.54:10312
+        http://47.254.184.54:10312;http://47.254.184.54:10322;http://47.254.184.54:10332;http://47.254.184.54:10342
       PORT: 4000
       REPLACE_OS_VARS: 'true'
     healthcheck:
@@ -238,7 +238,7 @@ services:
       DB_USERNAME: postgres
       NEO_NOTIFICATIONS_SERVER: 'http://${NOTIFICATIONS_SERVER}:8080/v1'
       NEO_SEEDS: >-
-        http://47.254.184.54:10312
+        http://47.254.184.54:10312;http://47.254.184.54:10322;http://47.254.184.54:10332;http://47.254.184.54:10342
       REPLACE_OS_VARS: 'true'
     image: 'registry.gitlab.com/cityofzion/neo-scan/sync:latest'
     # links:
