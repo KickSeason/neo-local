@@ -39,7 +39,7 @@ setup-network:
 	@./scripts/ping.sh
 	@./scripts/print.sh prefix "Network running! 🎉"
 
-start: pull-images setup-network attach-to-neo-python-client
+start: pull-images setup-network #attach-to-neo-python-client
 
 start-offline: setup-network attach-to-neo-python-client
 
