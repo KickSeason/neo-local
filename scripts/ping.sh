@@ -19,10 +19,10 @@ while [ "$(docker inspect --format '{{json .State.Health.Status }}' notification
     sleep 3
   done
 
-while [ "$(docker inspect --format '{{json .State.Health.Status }}' neo-faucet)" != "\"healthy\"" ]
-  do
-    printf '.'
-    sleep 3
-  done
+# while [ "$(docker inspect --format '{{json .State.Health.Status }}' neo-faucet)" != "\"healthy\"" ]
+#   do
+#     printf '.'
+#     sleep 3
+#   done
 
 printf "\n"
