@@ -47,3 +47,9 @@ Please visit the [Documentation](documentation/) for
 instructions on how to install and use the project.
 
 ![image](https://user-images.githubusercontent.com/2796074/36632958-9247f8ba-198d-11e8-8055-f096141902d9.png)
+
+Use Private Net
+
+change NEO_SEEDS in neo-scan-sync and neo-scan-api services in docker-compose.yml
+
+change notification-server config in /container-override-files/notifications-server use your private net protocol
