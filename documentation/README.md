@@ -144,6 +144,9 @@ There are two possible values:<br>
 
 Note: A genesis chain doesn't have GAS claimed yet. You will need GAS to deploy smart-contracts.
 
+## Use Private Net
+* change NEO_SEEDS in neo-scan-sync and neo-scan-api services in docker-compose.yml
+* change notification-server config in /container-override-files/notifications-server use your private net protocol
 ## Bugs and feature requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/CityOfZion/neo-local/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/CityOfZion/neo-local/issues/new/choose).
