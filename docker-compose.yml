@@ -248,6 +248,7 @@ services:
     #   - 'neo-cli-privatenet-4:30336'
     networks:
       - inside
+      - host-exposed
 
   notifications-server:
     command: >-
